@@ -26,8 +26,6 @@ const Navbar = () => {
       <div className={styles.links}>
         <ThemeToggle />
         <Link href="/">Accueil</Link>
-        <Link href="/">Contact</Link>
-        <Link href="/">À propos</Link>
         <AuthLinks />
       </div>
     </div>

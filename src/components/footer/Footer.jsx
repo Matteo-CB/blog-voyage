@@ -18,17 +18,30 @@ const Footer = () => {
           repellendus dorales.
         </p>
         <div className={styles.icons}>
-          <Image src="/facebook.svg" alt="" width={18} height={18} />
-          <Image src="/instagram.svg" alt="" width={18} height={18} />
-          <Image src="/pinterest.svg" alt="" width={18} height={18} />
+          <Image
+            src="/facebook.svg"
+            alt="facebook logo footer"
+            width={18}
+            height={18}
+          />
+          <Image
+            src="/instagram.svg"
+            alt="instagram logo footer"
+            width={18}
+            height={18}
+          />
+          <Image
+            src="/pinterest.svg"
+            alt="pinterest logo footer"
+            width={18}
+            height={18}
+          />
         </div>
       </div>
       <div className={styles.links}>
         <div className={styles.list}>
           <span className={styles.listTitle}>Links</span>
           <Link href="/">Accueil</Link>
-          <Link href="/">Contact</Link>
-          <Link href="/">À propos</Link>
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Tags</span>
